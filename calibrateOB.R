@@ -23,7 +23,7 @@ calibrateOB = function(muhat,
   N = length(Z)
   
   # Make sure that Z is binary
-  assertthat::assert_that(sort(unique(Z)) == c(0, 1))
+  assertthat::assert_that(all(sort(unique(Z)) == c(0, 1)))
   
   # Make sure that dimensions of Y, X, and Z are compatible
   assertthat::assert_that(length(Y) == N & dim(X)[1] == N)
