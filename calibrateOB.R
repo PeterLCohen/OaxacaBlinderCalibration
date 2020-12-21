@@ -28,9 +28,6 @@ calibrateOB = function(muhat,
   # Make sure that dimensions of Y, X, and Z are compatible
   assertthat::assert_that(length(Y) == N & dim(X)[1] == N)
   
-  # Make sure that the model is a valid type of glm
-  cat("TO DO\n")
-  
   # Format dataframe
   data = data.frame(X)
   data$Y = Y
