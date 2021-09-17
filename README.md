@@ -1,5 +1,5 @@
 # OaxacaBlinderCalibration
-Calibration procedure for asymptotically non-inferior imputation estimators.  See "No-harm calibration for generalized Oaxaca-Blinder estimators" (Preprint available at: https://arxiv.org/abs/2012.09246)
+Calibration procedure for asymptotically non-inferior imputation estimators.  See "No-harm calibration for generalized Oaxaca-Blinder estimators" (Preprint available at: https://arxiv.org/abs/2012.09246v2)
 
 Authors: Peter Cohen & Colin Fogarty
 
