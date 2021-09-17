@@ -14,5 +14,11 @@ Note: The model muhat must be a valid family of glm
 # OaxacaBlinderExample.R:
 An example script to demonstrate using calibrateOB.R on data.
 
-# SimulationCode.R:
-Reproduces the simulation of "No-harm calibration for generalized Oaxaca-Blinder estimators"
+# PoissonSimulations
+A subdirectory containing the simulations based upon Poisson regression in the ArXiv v2 preprint.
+
+# Logistic_twoPhaseSampling_SATE.R
+Simulation code to recreate the logistic regression simulations of the ArXiv v2 preprint.
+
+# Paper_Thiotepa_Analysis.R
+Reproducibility code to generate the analysis of thiotepa for prevention of reccurent bladder tumors.  relies upon *Bladder_Cancer_2.csv* which is data extracted from *Data* by Andrews and Herzberg (Springer 1985).
