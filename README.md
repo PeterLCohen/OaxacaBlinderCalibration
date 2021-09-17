@@ -5,9 +5,9 @@ Authors: Peter Cohen & Colin Fogarty
 
 # calibrateOB.R:
 A short script that allows a user to input:
-  *) observed outcomes (Y)
-  *) covariates (X)
-  *) binary vector of treatment allocation (Z)
+  * observed outcomes (Y)
+  * covariates (X)
+  * binary vector of treatment allocation (Z)
 Returns an estimate of the treatment effect by regression-adjusting according to the user's modeling choice (muhat)
 Note: The model muhat must be a valid family of glm
 
